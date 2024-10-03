@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Pseudo-Classes</title>
+    <style>
+        div.teste1{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            border-radius: 20px;
+            margin-top: 2px;
+            display: inline-block;
+            text-align: center;
+        }
+        div.teste1:hover{
+            background-color: red;
+        }
+
+        div.teste2 > p.teste3{
+            display: none;
+        }
+        div.teste2:hover > p.teste3{ 
+            display: block;
+        }
+        .teste3{
+            background-color: red;
+            color: white;
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="teste1">01</div>
+    <div class="teste1">02</div>
+    <div class="teste1">03</div>
+    <br>
+    <h2>Teste de texto oculto</h2>
+    <div class="teste2">
+        <h2>passe o mouse me cima e veja o texto escondido </h2>
+        <p>passe aqui</p>
+        <p class="teste3">texto oculto nao tem nada demais kk</p>
+        <p>fim do teste</p>
+    </div>
+
+</body>
+</html>

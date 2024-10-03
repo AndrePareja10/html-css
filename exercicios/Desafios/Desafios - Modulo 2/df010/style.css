@@ -1,0 +1,87 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(116, 212, 175);
+    margin: 0;
+}
+
+#tagHeader{
+    color: white;
+}
+
+h1{
+    margin: 0;
+}
+
+header{
+    background-image: linear-gradient(to top, rgb(6, 107, 36), rgb(41, 202, 135));
+    text-align: center;
+    color: white;
+}
+
+nav{
+    text-align: left;
+}
+
+nav > a{
+    text-decoration: none;
+    color: white;
+    margin: 10px;
+    font-size: 10px;
+}
+nav > a:hover{
+    color: black;
+}
+
+main{
+    background-color: white;
+    margin: 0px 200px 0px 200px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.274);
+    border-radius: 0px 0px 10px 10px;
+    padding: 10px;
+    text-align: center;
+}
+main > p{
+    text-align: justify;
+}
+main > h1, h2{
+    text-align: left;
+}
+main > h2{
+    background-image: linear-gradient(to right, rgb(187, 243, 215), white);
+    padding: 3px;
+}
+
+.tabela{
+    background-color: rgb(189, 221, 208) ;
+    border-radius: 10px;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.082);
+}
+.containerTabela{
+    background-color:  rgb(61, 143, 86) ;
+    border-radius: 10px 10px 0px 0px;
+    text-align: left;
+    color: white;
+    padding: 1px;
+}
+.containerTabela > p{
+    margin-top: 3px;
+}
+.listasTabela{
+    display: flex;
+    text-align: left;
+}
+.listaTabela2{
+    margin-left: 200px;
+}
+
+footer{
+    background-color: rgb(6, 107, 36);
+    margin-top: 30px;
+    margin-bottom: 0;
+    text-align: center;
+    color: aqua;
+    padding: 5px;
+}
+footer > p{
+    margin: 0;
+}
