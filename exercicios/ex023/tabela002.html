@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela</title>
+
+    <style>
+
+        table{
+            border-collapse: collapse;
+            width: 500px;
+        }
+
+        th{
+            background-color: gray;
+            color: white;
+        }
+
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Exercicio Tabela grande</h1>
+    <!--
+        Anatomia das tabelas - forma semantica
+        CAPTION
+        thead - cabeçalho da tabela
+        tbody - corpo da tabela
+        tfoot - rodapé da tabela
+            (exemplo abaixo)
+    -->
+    
+    <table>
+
+        <caption>População dos estados do brasil</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col">População</th>
+                <th scope="col">Sigla</th>
+                <th scope="col">Porcentagem</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">210000</td>
+                <td>SP</td>
+                <td>20%</td>
+            </tr>
+
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">10000</td>
+                <td>RJ</td>
+                <td>10%</td>
+            </tr>
+
+            <tr>
+                <td>Espirito Santo</td>
+                <td class="numero">2500</td>
+                <td>ES</td>
+                <td>7%</td>
+            </tr>
+
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="numero">4900</td>
+                <td>MT</td>
+                <td>9%</td>
+            </tr>
+
+            <tr>
+                <td>Snta Catarina</td>
+                <td class="numero">12000</td>
+                <td>SC</td>
+                <td>10%</td>
+            </tr>
+
+            <tr>
+                <td>Acre</td>
+                <td class="numero">1000</td>
+                <td>AC</td>
+                <td>2%</td>
+            </tr>
+
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">2000</td>
+                <td>MG</td>
+                <td>5%</td>
+            </tr>
+
+            <tr>
+                <td>Roraima</td>
+                <td class="numero">34503</td>
+                <td>RO</td>
+                <td>12%</td>
+            </tr>
+
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="numero">34928</td>
+                <td>RG</td>
+                <td>4%</td>
+            </tr>
+
+            <tr>
+                <td>Rondonia</td>
+                <td class="numero">938384</td>
+                <td>RO</td>
+                <td>3%</td>
+            </tr>
+
+            <tr>
+                <td>Coritiba</td>
+                <td class="numero">33456</td>
+                <td>CO</td>
+                <td>4%</td>
+            </tr>
+
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th scope="row">Total</th>
+                <td>1320029</td>
+            </tr>
+        </tfoot>
+
+    </table>
+
+    <p>Dados da tabela incorretos, preenchimento manual para estudo da estrutura da tabela em html.</p>
+    
+</body>
+</html>
