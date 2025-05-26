@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form action="cadastro.js" method="get">
+        <h1>Formulario - testes </h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="iNome">Nome: </label>
+                <input type="text" name="nome" id="iNome" maxlength="25" minlength="5" required>
+            </p>
+            <p>
+                <label for="iEmail">Email: </label>
+                <input type="email" name="email" id="iEmail" required>
+            </p>
+            <p>
+                <label for="iTelefone">Telefone: </label>
+                <input type="tel" name="telefone" id="iTelefone" placeholder="(xx)xxxx-xxxx">
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
+
+    
+</body>
+</html>
