@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios</title>
+</head>
+<body>
+
+    <form action="cadastro.js" method="get">
+
+        <p>
+            <label for="iNumero1">Numero 1: </label>
+            <input type="number" name="numero1" id="iNumero1" required
+            oninput="iSoma.innerHTML = Number(iNumero1.value) + Number(iNumero2.value)">
+        </p>
+
+        <p>
+            <label for="iNumero2">Numero 2: </label>
+            <input type="number" name="numero2" id="iNumero2" required
+            oninput="iSoma.innerHTML = Number(iNumero1.value) + Number(iNumero2.value)">
+        </p>
+
+        <p>
+            <label for="iSoma">Soma: </label>
+            <output id="iSoma" name="soma">0</output>
+        </p>
+
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+    
+</body>
+</html>
